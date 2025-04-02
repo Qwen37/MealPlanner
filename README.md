@@ -25,7 +25,7 @@ MealPlannerApp is a simple and intuitive mobile application designed to help use
 - **Recipe Links**: Get full recipes for the suggested meals.
 
 ## Contributing
-Want to improve *MealPlannerApp*? Feel free to contribute! Submit issues, feedback, or feature requests via [GitHub Repository Link].
+Want to improve *MealPlannerApp*? Feel free to contribute! Submit issues, feedback, or feature requests via https://github.com/Qwen37/MealPlanner.git.
 
 
 
