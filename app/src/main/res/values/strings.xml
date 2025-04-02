@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MealPlannerApp</string>
+    <string name="hintText">Enter the period of the day</string>
+</resources>
