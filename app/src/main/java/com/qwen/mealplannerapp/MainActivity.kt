@@ -31,7 +31,17 @@ class MainActivity : AppCompatActivity() {
         //handle display button clicked
         //get user input  - check against 'time of day'
         displayMealButton.setOnClickListener {
+        }
+
+        //handle reset button clicked
+        //reset textview and clears editText
+        resetButton.setOnClickListener {
+            displayFinalAnswer.text = "";
+            enterTimeOfDayText.text.clear()
 
         }
+
+
+
     }
 }
