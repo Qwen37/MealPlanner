@@ -31,6 +31,30 @@ class MainActivity : AppCompatActivity() {
         //handle display button clicked
         //get user input  - check against 'time of day'
         displayMealButton.setOnClickListener {
+            val timeOfDay = enterTimeOfDayText.text.toString().lowercase();
+
+            if(timeOfDay == "morning" ){
+                displayFinalAnswer.text =  "Cereal";
+            }
+            else if (timeOfDay == "mid-morning") {
+                displayFinalAnswer.text =  "Eggs";
+            }
+            else if(timeOfDay == "afternoon") {
+                displayFinalAnswer.text =  "Pizza";
+            }
+            else if(timeOfDay == "mid-afternoon") {
+                displayFinalAnswer.text =  "Cake";
+            }
+            else if (timeOfDay=="dinner")
+            {
+                displayFinalAnswer.text =  "Pasta";
+            }
+            else{
+                //the user entered incorrect input
+                displayFinalAnswer.text = "Incorrect time of day - please enter one of" +
+                        " ('Morning', 'Mid-morning', 'Afternoon', 'Mid-Afternoon', 'Dinner' )"
+            }
+
         }
 
         //handle reset button clicked
