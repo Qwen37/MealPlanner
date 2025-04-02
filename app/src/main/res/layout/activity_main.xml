@@ -20,15 +20,14 @@
         android:layout_marginEnd="32dp"
         android:backgroundTint="#00FFFFFF"
         android:foregroundTint="#00FFFFFF"
-
         android:visibility="visible"
+        app:srcCompat="@drawable/bgmeal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.109"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.352"
-
         tools:visibility="visible" />
 
     <TextView
@@ -38,7 +37,8 @@
         android:layout_marginStart="35dp"
         android:layout_marginTop="116dp"
         android:layout_marginEnd="35dp"
-        android:backgroundTint="#0020D4"
+        android:background="#fff"
+        android:backgroundTint="#FFFFFF"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="@color/black"
